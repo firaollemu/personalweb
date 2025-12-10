@@ -8,24 +8,9 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Project One",
-    description: "A full-stack task management app with real-time collaboration features.",
-    tech: ["React", "Node.js", "PostgreSQL"],
-    link: "#",
-    github: "https://github.com",
-  },
-  {
-    title: "Project Two",
-    description: "E-commerce platform with payment integration and inventory management.",
-    tech: ["Next.js", "Stripe", "Tailwind"],
-    link: "#",
-    github: "https://github.com",
-  },
-  {
-    title: "Project Three",
-    description: "CLI tool that automates repetitive development workflows.",
-    tech: ["Python", "Click", "SQLite"],
-    link: "#",
-    github: "https://github.com",
+    title: "MITScript VM",
+    description: "A bytecode interpreter and virtual machine for MITScript, a Python-like language. Built for MIT 6.1120.",
+    tech: ["C++", "CMake", "ANTLR"],
+    github: "https://github.com/firaollemu/vmbytecode",
   },
 ];
